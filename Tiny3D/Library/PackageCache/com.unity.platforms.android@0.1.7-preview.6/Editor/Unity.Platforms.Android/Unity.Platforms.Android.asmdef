@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Platforms.Android",
+    "references": [
+        "Unity.Platforms",
+        "Unity.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

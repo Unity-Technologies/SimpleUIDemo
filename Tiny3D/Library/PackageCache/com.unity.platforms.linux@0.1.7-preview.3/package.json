@@ -1,0 +1,19 @@
+{
+  "name": "com.unity.platforms.linux",
+  "displayName": "DOTS Linux Platform",
+  "version": "0.1.7-preview.3",
+  "unity": "2019.3",
+  "unityRelease": "0f1",
+  "description": "Provides support for building DOTS based projects to Linux.",
+  "keywords": [
+    "linux"
+  ],
+  "dependencies": {
+    "com.unity.platforms": "0.1.7-preview.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Unity-Technologies/dots-platforms.git",
+    "revision": "b2b9e806ad5cf74c645210776e427f4c41003771"
+  }
+}

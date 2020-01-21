@@ -1,0 +1,12 @@
+{
+    "name": "Unity.Tiny.GLFW",
+    "references": [
+      "Unity.Entities",
+      "Unity.Mathematics",
+      "Unity.Tiny.Core"
+    ],
+    "optionalUnityReferences": [],
+    "excludePlatforms": [ "WebGL", "Android", "IOS" ],
+    "allowUnsafeCode": true,
+    "defineConstraints": []
+}

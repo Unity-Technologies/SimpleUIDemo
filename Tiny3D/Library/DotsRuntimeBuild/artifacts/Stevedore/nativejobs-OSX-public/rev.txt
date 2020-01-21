@@ -1,0 +1,2 @@
+0896c56a304529be52771af5b55e436df2479913
+https://github.cds.internal.unity3d.com/unity/nativejobs

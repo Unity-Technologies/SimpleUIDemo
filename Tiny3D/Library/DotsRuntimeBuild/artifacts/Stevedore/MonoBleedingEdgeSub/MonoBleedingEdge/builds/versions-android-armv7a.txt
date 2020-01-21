@@ -1,0 +1,7 @@
+mono-version =
+unity-mono-revision = acf432a39edc3865d3d97f1825d9576459049f6e
+
+unity-mono-build-scripts-revision = acf432a39edc3865d3d97f1825d9576459049f6e
+
+build-date = Fri Mar 15 12:23:48 GMT 2019
+

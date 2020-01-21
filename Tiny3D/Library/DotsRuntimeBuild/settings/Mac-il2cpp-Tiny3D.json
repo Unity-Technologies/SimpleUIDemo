@@ -1,0 +1,9 @@
+{
+  "PlatformTargetIdentifier": "macos-il2cpp",
+  "UseBurst": true,
+  "EnableManagedDebugging": false,
+  "RootAssembly": "Tiny3D",
+  "EnableMultiThreading": false,
+  "FinalOutputDirectory": "Builds/Mac-il2cpp-Tiny3D",
+  "DotsConfig": "Develop"
+}

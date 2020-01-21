@@ -1,0 +1,2 @@
+{"msg":"init","dagFile":"artifacts/buildprogram/tundra_buildprogram.dag","targets":[]}
+{"msg":"nodeOutputsMissing","annotation":"CSProject /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj","index":12,"files":["/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj"]}

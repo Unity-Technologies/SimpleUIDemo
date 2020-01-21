@@ -1,0 +1,21 @@
+{
+    "name": "Unity.Tiny.iOS",
+    "references": [
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core"
+    ],
+    "includePlatforms": [
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_DOTSPLAYER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

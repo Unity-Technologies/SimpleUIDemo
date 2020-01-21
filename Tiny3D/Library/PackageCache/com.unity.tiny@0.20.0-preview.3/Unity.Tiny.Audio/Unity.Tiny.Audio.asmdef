@@ -1,0 +1,11 @@
+{
+    "name": "Unity.Tiny.Audio",
+    "references": [
+        "Unity.Entities",
+        "Unity.Tiny.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+	"allowUnsafeCode": true
+}

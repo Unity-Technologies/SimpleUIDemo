@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{28883464-6A4E-C4A8-8D39-53B85634985D}|">
+  <MonoDevelop.Ide.ItemProperties.Tiny3D PreferredExecutionTarget="0565519a-fb75-4e78-8d7b-969726ad3a21" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UpdateUIInputs.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UIScaleSystem.cs" Line="26" Column="8" />
+      <File FileName="Assets/Scripts/UIInputs.cs" Line="9" Column="31" />
+      <File FileName="Assets/Scripts/UIchangeScaleSystem.cs" Line="20" Column="5" />
+      <File FileName="Assets/Scripts/UIPose.cs" Line="6" Column="9" />
+      <File FileName="Assets/Scripts/UpdateUIInputs.cs" Line="111" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

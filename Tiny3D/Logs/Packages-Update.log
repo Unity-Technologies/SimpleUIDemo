@@ -1,0 +1,9 @@
+
+=== Mon Jan 20 18:23:01 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 1.1.0 to 1.1.4
+  com.unity.render-pipelines.universal from version 7.1.5 to 7.1.6

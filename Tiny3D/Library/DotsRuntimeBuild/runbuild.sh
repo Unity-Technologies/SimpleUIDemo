@@ -1,0 +1,1 @@
+/Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe" --no-colors Mac-DotNet-Tiny3D

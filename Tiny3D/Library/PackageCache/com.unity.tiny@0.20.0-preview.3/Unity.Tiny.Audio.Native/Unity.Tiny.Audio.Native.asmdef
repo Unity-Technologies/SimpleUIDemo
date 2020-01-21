@@ -1,0 +1,16 @@
+{
+    "name": "Unity.Tiny.Audio.Native",
+    "references": [
+        "Unity.Entities",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Audio",
+        "Unity.Tiny.IO"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WebGL"
+    ],
+    "allowUnsafeCode": true,
+    "defineConstraints": ["UNITY_DOTSPLAYER"]
+}

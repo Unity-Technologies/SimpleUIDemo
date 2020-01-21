@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{623D0F98-FC77-B9AB-94A4-67C8A03FB2D9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>buildprogram_buildprogram</RootNamespace>
+    <AssemblyName>buildprogram_buildprogram</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramBuildProgramSources\BuildProgramBuildProgram.cs">
+      <Link>BuildProgramBuildProgram.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>artifacts\buildprogram_buildprogram.exe\Release</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="bee">
+      <HintPath>..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\bee.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

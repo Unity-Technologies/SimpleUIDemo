@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Tiny.Audio.Authoring",
+    "references": [
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Audio",
+        "Unity.Tiny.Authoring"
+    ],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

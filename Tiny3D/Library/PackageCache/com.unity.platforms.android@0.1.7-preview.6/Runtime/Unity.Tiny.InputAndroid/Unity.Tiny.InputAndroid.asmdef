@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Tiny.InputAndroid",
+    "references": [
+      "Unity.Entities",
+      "Unity.Mathematics",
+      "Unity.Tiny.Core",
+      "Unity.Collections",
+      "Unity.Tiny.Android",
+      "Unity.Tiny.Input"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [ "Android" ],
+    "allowUnsafeCode": true,
+    "defineConstraints": ["UNITY_DOTSPLAYER"]
+}

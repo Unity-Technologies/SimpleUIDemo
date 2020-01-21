@@ -1,0 +1,26 @@
+{
+  "name": "com.unity.platforms.web",
+  "displayName": "DOTS Web Platform",
+  "version": "0.1.7-preview.6",
+  "unity": "2019.3",
+  "unityRelease": "0f1",
+  "description": "Provides support for building DOTS based projects to the Web.",
+  "keywords": [
+    "web",
+    "webgl",
+    "asmjs",
+    "wasm"
+  ],
+  "dependencies": {
+    "com.unity.platforms": "0.1.7-preview.3",
+    "com.unity.collections": "0.3.0-preview.0",
+    "com.unity.jobs": "0.2.1-preview.3",
+    "com.unity.properties": "0.10.3-preview",
+    "com.unity.entities": "0.3.0-preview.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Unity-Technologies/dots-platforms.git",
+    "revision": "b72ac5317f87a8ac24e40da5992b34cd92c10321"
+  }
+}

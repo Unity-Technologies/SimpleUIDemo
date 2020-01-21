@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Tiny.Input.Hybrid",
+    "references": [
+      "Unity.Entities",
+      "Unity.Collections",
+      "Unity.Mathematics",
+      "Unity.Tiny.Core",
+      "Unity.Tiny.Input"
+    ],
+    "optionalUnityReferences": [],
+    "excludePlatforms": [],
+    "includePlatforms": [],
+    "allowUnsafeCode": true,
+    "defineConstraints": ["!UNITY_DOTSPLAYER"]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Unity.Tiny.Core",
+    "references": [
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Mathematics"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}

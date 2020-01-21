@@ -1,0 +1,20 @@
+{
+    "name": "Unity.Tiny.Scenes",
+    "references": [
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Runtime",
+        "Unity.Mathematics",
+        "Unity.Tiny.Codec",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.IO"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

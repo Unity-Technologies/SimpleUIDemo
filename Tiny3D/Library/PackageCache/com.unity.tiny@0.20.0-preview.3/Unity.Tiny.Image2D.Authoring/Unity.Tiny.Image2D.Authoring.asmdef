@@ -1,0 +1,20 @@
+{
+    "name": "Unity.Tiny.Image2D.Authoring",
+    "references": [
+        "Unity.Collections",
+        "Unity.Editor",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Image2D"
+    ],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

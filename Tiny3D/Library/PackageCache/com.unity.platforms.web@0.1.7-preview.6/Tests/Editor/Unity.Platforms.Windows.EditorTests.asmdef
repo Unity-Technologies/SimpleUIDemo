@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Platforms.Web.EditorTests",
+    "references": [
+        "Unity.Platforms.Web"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

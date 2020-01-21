@@ -1,0 +1,9 @@
+{
+  "PlatformTargetIdentifier": "macos-dotnet",
+  "UseBurst": true,
+  "EnableManagedDebugging": false,
+  "RootAssembly": "Tiny3D",
+  "EnableMultiThreading": false,
+  "FinalOutputDirectory": "Builds/Mac-DotNet-Tiny3D",
+  "DotsConfig": "Develop"
+}

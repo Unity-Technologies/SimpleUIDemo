@@ -1,0 +1,22 @@
+{
+    "name": "Unity.Platforms.Web",
+    "references": [
+        "Unity.Editor",
+        "Unity.Platforms",
+        "Unity.Build",
+        "Unity.Properties"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Platforms.Windows.EditorTests",
+    "references": [
+        "Unity.Platforms.Windows"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

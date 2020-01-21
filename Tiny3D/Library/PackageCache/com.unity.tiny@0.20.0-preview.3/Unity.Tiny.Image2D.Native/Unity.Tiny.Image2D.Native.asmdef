@@ -1,0 +1,17 @@
+{
+  "name": "Unity.Tiny.Image2D.Native",
+  "references": [
+    "Unity.Entities",
+    "Unity.Mathematics",
+    "Unity.Tiny.Core",
+    "Unity.Tiny.Image2D",
+    "Unity.Tiny.IO",
+    "Unity.Tiny.Thread.Native"
+  ],
+  "optionalUnityReferences": [],
+  "excludePlatforms": [
+    "WebGL"
+  ],
+  "allowUnsafeCode": true,
+  "defineConstraints": []
+}

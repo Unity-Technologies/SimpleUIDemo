@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Platforms.Linux.EditorTests",
+    "references": [
+        "Unity.Platforms.Linux"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

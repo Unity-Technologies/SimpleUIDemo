@@ -1,0 +1,378 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-yufh
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+DisplayProgressbar: Unity license
+
+LICENSE SYSTEM [2020121 13:40:5] Next license update check is after 2020-01-16T10:14:50
+
+[Licensing::Module] Serial number assigned to: "I3-3VZ8-VEJY-TUFR-353D-XXXX"\n
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+58832
+Successfully changed project path to: /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D
+/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 61.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.3.0f3 (6c9e2bfd6f81)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Assets
+GfxDevice: creating device client; threaded=0
+2020-01-21 13:40:05.844 Unity[1780:7446411] Color LCD preferred device: AMD Radeon Pro 560X (high power)
+2020-01-21 13:40:05.844 Unity[1780:7446411] Metal devices available: 2
+2020-01-21 13:40:05.844 Unity[1780:7446411] 0: AMD Radeon Pro 560X (high power)
+2020-01-21 13:40:05.844 Unity[1780:7446411] 1: Intel(R) UHD Graphics 630 (low power)
+2020-01-21 13:40:05.845 Unity[1780:7446411] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+[EnlightenBakeManager] m_Clear = false;
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001109 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Registering precompiled user dll's ...
+Registered in 0.108967 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Pass 'EdgePass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Pass 'VertexPass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Setting to default shader.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 7.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 422.3 MB.
+System memory in use after: 419.0 MB.
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 3803.
+Total: 4.076699 ms (FindLiveObjects: 0.444383 ms CreateObjectMapping: 0.162969 ms MarkObjects: 1.570815 ms  DeleteObjects: 1.898108 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings
+  artifactKey: Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Start importing Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings using Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Opening scene 'Assets/Scenes/DOTS Subscene.unity additively'
+Loaded scene 'Assets/Scenes/DOTS Subscene.unity'
+	Deserialize:            3.098 ms
+	Integration:            15.999 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       18.344 ms
+	Total Operation Time:   37.444 ms
+Launching external process: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Done importing asset: 'Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings' (target hash: 'bcb622451e00a2ee50671aaaaeb68b23') in 11.737134 seconds
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.76 GB.
+System memory in use after: 0.76 GB.
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 3837.
+Total: 4.959203 ms (FindLiveObjects: 0.558237 ms CreateObjectMapping: 0.290151 ms MarkObjects: 4.049152 ms  DeleteObjects: 0.060560 ms)
+
+  Import took 11.766457 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001468 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1417.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.760 seconds
+Registering precompiled user dll's ...
+Registered in 0.114408 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1436.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.752 seconds
+Platform modules already initialized, skipping
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Pass 'EdgePass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Pass 'VertexPass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Setting to default shader.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.76 GB.
+System memory in use after: 0.76 GB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 3847.
+Total: 4.177298 ms (FindLiveObjects: 0.437876 ms CreateObjectMapping: 0.163357 ms MarkObjects: 1.770199 ms  DeleteObjects: 1.805381 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001546 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1422.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.808 seconds
+Registering precompiled user dll's ...
+Registered in 0.117387 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1453.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.816 seconds
+Platform modules already initialized, skipping
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Pass 'EdgePass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Pass 'VertexPass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Setting to default shader.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.76 GB.
+System memory in use after: 0.76 GB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 3857.
+Total: 5.259364 ms (FindLiveObjects: 0.527835 ms CreateObjectMapping: 0.241769 ms MarkObjects: 2.241310 ms  DeleteObjects: 2.247568 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000461 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1419.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.811 seconds
+Registering precompiled user dll's ...
+Registered in 0.114437 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1433.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.864 seconds
+Platform modules already initialized, skipping
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Pass 'EdgePass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Pass 'VertexPass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Setting to default shader.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.77 GB.
+System memory in use after: 0.76 GB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 3867.
+Total: 4.666750 ms (FindLiveObjects: 0.511940 ms CreateObjectMapping: 0.199924 ms MarkObjects: 1.861642 ms  DeleteObjects: 2.092612 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001300 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1467.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.958 seconds
+Registering precompiled user dll's ...
+Registered in 0.122205 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1450.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.967 seconds
+Platform modules already initialized, skipping
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Pass 'EdgePass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Pass 'VertexPass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Setting to default shader.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 7.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.77 GB.
+System memory in use after: 0.77 GB.
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 3877.
+Total: 5.202676 ms (FindLiveObjects: 0.496233 ms CreateObjectMapping: 0.211970 ms MarkObjects: 2.167312 ms  DeleteObjects: 2.326333 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 380.042669 seconds.
+  path: Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings
+  artifactKey: Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Start importing Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings using Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Opening scene 'Assets/Scenes/DOTS Subscene.unity additively'
+Loaded scene 'Assets/Scenes/DOTS Subscene.unity'
+	Deserialize:            3.584 ms
+	Integration:            4.870 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       16.968 ms
+	Total Operation Time:   25.426 ms
+Done importing asset: 'Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings' (target hash: '692426ba3cbd955b541149cb4cd9e6ac') in 0.961173 seconds
+  Import took 0.964646 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.073183 seconds.
+  path: Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings
+  artifactKey: Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Start importing Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings using Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Opening scene 'Assets/Scenes/DOTS Subscene.unity additively'
+Loaded scene 'Assets/Scenes/DOTS Subscene.unity'
+	Deserialize:            0.864 ms
+	Integration:            1.069 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       19.888 ms
+	Total Operation Time:   21.826 ms
+Done importing asset: 'Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings' (target hash: '949969c74906bea3a833d5f711c38918') in 0.109818 seconds
+  Import took 0.113355 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.044236 seconds.
+  path: Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings
+  artifactKey: Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Start importing Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings using Guid(3243782472783efa7dee3332e5862e47) Importer(2089858483,Unity.Scenes.Editor:Unity.Scenes.Editor:SubSceneImporter)
+Opening scene 'Assets/Scenes/DOTS Subscene.unity additively'
+Loaded scene 'Assets/Scenes/DOTS Subscene.unity'
+	Deserialize:            0.969 ms
+	Integration:            1.005 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       19.636 ms
+	Total Operation Time:   21.614 ms
+Done importing asset: 'Assets/SceneDependencyCache/3243782472783efa7dee3332e5862e47.sceneWithBuildSettings' (target hash: '62d3089aa47163afb8520019f033ab79') in 0.138959 seconds
+  Import took 0.142749 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001113 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1438.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.001 seconds
+Registering precompiled user dll's ...
+Registered in 0.116241 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1447.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.990 seconds
+Platform modules already initialized, skipping
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Pass 'EdgePass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/LineBillboard' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Pass 'VertexPass' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/ProBuilder/PointBillboard' - Setting to default shader.
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 86 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.78 GB.
+System memory in use after: 0.78 GB.
+
+Unloading 195 unused Assets to reduce memory usage. Loaded Objects now: 3892.
+Total: 7.026441 ms (FindLiveObjects: 0.674042 ms CreateObjectMapping: 0.245210 ms MarkObjects: 3.107120 ms  DeleteObjects: 2.998419 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2019.3.0f3/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001218 seconds.
+Symbol file LoadedFromMemory doesn't match image /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1431.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.999 seconds
+Registering precompiled user dll's ...
+Registered in 0.108928 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

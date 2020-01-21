@@ -1,0 +1,211 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "PassIndex": 0,
+      "Deps": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe' steve internal-unpack public 7za-mac-x64/16.04-1.1.4_d7d625b52bf0c3e1b4948da5cd015e7ae2047e1bd18dc7a7ef367f950d43990e.zip \"artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64\"",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe' steve internal-unpack public referenceassemblies_v46/1_3750434ae503231abc3db765a9a8972337bdb0392b992cb22f879fe42f62c746.7z \"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46\"",
+      "Inputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/DotsRuntimeBuild/artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+        }
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe' steve internal-unpack public roslyn-csc-mac/6c0e221e95df_7101670cd0a4eee0627ccea84b4976117127409c3fb065f79d6ac7bbf8631774.7z \"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac\"",
+      "Inputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/.StevedoreVersion",
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/DotsRuntimeBuild/artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+        }
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)",
+      "Action": "\"artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/csc\" /nostdlib /noconfig /shared -out:\"artifacts/buildprogram/buildprogram_buildprogram.exe\" /refout:\"artifacts/buildprogram/ref/buildprogram_buildprogram.exe/1088064819024506472.dll\" -warnaserror -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/mscorlib.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Core.dll\" -r:\"artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Xml.dll\" -r:\"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:portable /nologo /deterministic",
+      "Inputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/mscorlib.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Core.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Xml.dll",
+        "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/csc"
+      ],
+      "Outputs": [
+        "artifacts/buildprogram/buildprogram_buildprogram.exe",
+        "artifacts/buildprogram/buildprogram_buildprogram.pdb",
+        "artifacts/buildprogram/ref/buildprogram_buildprogram.exe/1088064819024506472.dll"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        2,
+        3,
+        5
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "SharedResources": [],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "CSProject buildprogram-build.gen.csproj",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\n  <PropertyGroup>\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\n    <ProjectGuid>{623D0F98-FC77-B9AB-94A4-67C8A03FB2D9}</ProjectGuid>\n    <OutputType>Exe</OutputType>\n    <RootNamespace>buildprogram_buildprogram</RootNamespace>\n    <AssemblyName>buildprogram_buildprogram</AssemblyName>\n    <FileAlignment>512</FileAlignment>\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\n    <LangVersion>7.2</LangVersion>\n  </PropertyGroup>\n  <ItemGroup>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramBuildProgramSources\\BuildProgramBuildProgram.cs\">\n      <Link>BuildProgramBuildProgram.cs</Link>\n    </Compile>\n  </ItemGroup>\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <PlatformTarget>AnyCPU</PlatformTarget>\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>pdbonly</DebugType>\n    <Optimize>true</Optimize>\n    <OutputPath>artifacts\\buildprogram_buildprogram.exe\\Release</OutputPath>\n    <DefineConstants></DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\n    <NoWarn></NoWarn>\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\n    <Prefer32Bit>false</Prefer32Bit>\n    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <Reference Include=\"System\" />\n    <Reference Include=\"System.Core\" />\n    <Reference Include=\"bee\">\n      <HintPath>..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\bee.exe</HintPath>\n    </Reference>\n  </ItemGroup>\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\n</Project>",
+      "Inputs": [],
+      "Outputs": [
+        "buildprogram-build.gen.csproj"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 5
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "bee.config"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~",
+      "Filter": "Bee.*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~",
+      "Filter": "*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe"
+  ],
+  "StructuredLogFileName": "artifacts/buildprogrambuildprogram/tundra.log.json",
+  "StateFileName": "artifacts/buildprogrambuildprogram/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/buildprogrambuildprogram/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/buildprogrambuildprogram/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/buildprogrambuildprogram/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/buildprogrambuildprogram/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/buildprogrambuildprogram/tundra.digestcache.tmp",
+  "SharedResources": [],
+  "Passes": [
+    "0"
+  ],
+  "Scanners": [],
+  "Setup": {
+    "DefaultBuildTuple": {
+      "VariantIndex": 0,
+      "ConfigIndex": 0,
+      "SubVariantIndex": 0
+    },
+    "SubVariants": [
+      "default"
+    ],
+    "Configs": [
+      "default"
+    ],
+    "Variants": [
+      "default"
+    ],
+    "BuildTuples": [
+      {
+        "VariantIndex": 0,
+        "DefaultNodes": [
+          0
+        ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        },
+        "ConfigIndex": 0,
+        "SubVariantIndex": 0,
+        "AlwaysNodes": []
+      }
+    ]
+  },
+  "Identifier": "artifacts/buildprogram/buildprogram_buildprogram.dag.json",
+  "BuildTitle": "",
+  "RelativePathToRoot": "../.."
+}

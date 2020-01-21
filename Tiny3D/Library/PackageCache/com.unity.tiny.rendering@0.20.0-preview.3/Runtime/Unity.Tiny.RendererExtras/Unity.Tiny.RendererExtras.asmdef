@@ -1,0 +1,25 @@
+{
+    "name": "Unity.Tiny.RendererExtras",
+    "references": [
+      "Unity.Entities",
+      "Unity.Collections",
+      "Unity.Mathematics",
+      "Unity.Mathematics.Extensions",
+      "Unity.Transforms",
+      "Unity.Tiny.Core",
+      "Unity.Tiny.Image2D",
+      "Unity.Tiny.Rendering",
+      "Unity.Tiny.Scenes",
+      "Unity.Tiny.Rendering.Native",
+      "Unity.Tiny.Input"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": []
+}

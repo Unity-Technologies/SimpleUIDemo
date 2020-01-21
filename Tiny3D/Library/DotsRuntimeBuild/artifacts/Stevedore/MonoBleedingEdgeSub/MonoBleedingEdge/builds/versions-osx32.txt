@@ -1,0 +1,18 @@
+mono-version =
+Mono JIT compiler version 5.11.0 ((HEAD/acf432a39ed Fri Mar 15 12:32:04 GMT 2019)
+Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
+	TLS:           normal
+	SIGSEGV:       altstack
+	Notification:  kqueue
+	Architecture:  x86
+	Disabled:      shared_perfcounters
+	Misc:          softdebug 
+	Interpreter:   yes
+	LLVM:          supported, not enabled.
+	GC:            sgen (concurrent by default)
+unity-mono-revision = acf432a39edc3865d3d97f1825d9576459049f6e
+
+unity-mono-build-scripts-revision = acf432a39edc3865d3d97f1825d9576459049f6e
+
+build-date = Fri Mar 15 12:53:41 GMT 2019
+

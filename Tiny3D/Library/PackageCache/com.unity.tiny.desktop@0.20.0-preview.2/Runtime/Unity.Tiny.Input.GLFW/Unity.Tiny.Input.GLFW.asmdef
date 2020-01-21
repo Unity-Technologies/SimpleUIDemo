@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Tiny.Input.GLFW",
+    "references": [
+      "Unity.Entities",
+      "Unity.Mathematics",
+      "Unity.Collections",
+      "Unity.Tiny.Core",
+      "Unity.Tiny.GLFW",
+      "Unity.Tiny.Input"
+    ],
+    "optionalUnityReferences": [],
+    "excludePlatforms": [ "WebGL", "Android", "IOS" ],
+    "allowUnsafeCode": true,
+    "defineConstraints": ["UNITY_DOTSPLAYER"]
+}

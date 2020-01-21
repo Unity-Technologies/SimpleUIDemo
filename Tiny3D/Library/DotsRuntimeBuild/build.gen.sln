@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buildprogram", "buildprogram.gen.csproj", "{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buildprogrambuildprogram", "..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramBuildProgramSources\buildprogrambuildprogram.gen.csproj", "{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Only|Default = Only|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}.Only|Default.ActiveCfg = Release|Any CPU
+		{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}.Only|Default.Build.0 = Release|Any CPU
+		{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}.Only|Default.ActiveCfg = Release|Any CPU
+		{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}.Only|Default.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

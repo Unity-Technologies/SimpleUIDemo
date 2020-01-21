@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>buildprogram</RootNamespace>
+    <AssemblyName>buildprogram</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\AsmDefCSharpProgram.cs">
+      <Link>AsmDefCSharpProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\AsmDefCSharpProgramCustomizer.cs">
+      <Link>AsmDefCSharpProgramCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\AsmDefConfigFile.cs">
+      <Link>AsmDefConfigFile.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\AsmDefDescription.cs">
+      <Link>AsmDefDescription.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\BuildProgram.bee.cs">
+      <Link>BuildProgram.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\BuildSettings.cs">
+      <Link>BuildSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\Cache.cs">
+      <Link>Cache.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\DotsBuildCustomizer.cs">
+      <Link>DotsBuildCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\DotsRuntimeCSharpProgram.cs">
+      <Link>DotsRuntimeCSharpProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\DotsRuntimeCSharpProgramCustomizer.cs">
+      <Link>DotsRuntimeCSharpProgramCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\EditorToolsBuildProgram.cs">
+      <Link>EditorToolsBuildProgram.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\ILPostProcessorTool.cs">
+      <Link>ILPostProcessorTool.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\IPackagedAppExtension.cs">
+      <Link>IPackagedAppExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\Il2Cpp.bee.cs">
+      <Link>Il2Cpp.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\Il2CppCustomLocation.bee.cs">
+      <Link>Il2CppCustomLocation.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\NPathExtensions.bee.cs">
+      <Link>NPathExtensions.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\ReferenceAssemblies471.cs">
+      <Link>ReferenceAssemblies471.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\StevedoreNewtonsoftJson.cs">
+      <Link>StevedoreNewtonsoftJson.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\StevedoreUnityCecil.cs">
+      <Link>StevedoreUnityCecil.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\TypeRegistrationTool.cs">
+      <Link>TypeRegistrationTool.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\BuildProgramSources\UnsafeUtility.cs">
+      <Link>UnsafeUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.burst@1.2.0-preview.9\Runtime\bee~\Burst.bee.cs">
+      <Link>com.unity.burst@1.2.0-preview.9\Runtime\bee~\Burst.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.android@0.1.7-preview.6\Editor\Unity.Platforms.Android\bee~\AndroidAPKToolchain.cs">
+      <Link>com.unity.platforms.android@0.1.7-preview.6\Editor\Unity.Platforms.Android\bee~\AndroidAPKToolchain.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.android@0.1.7-preview.6\Editor\Unity.Platforms.Android\bee~\DotsAndroidTarget.cs">
+      <Link>com.unity.platforms.android@0.1.7-preview.6\Editor\Unity.Platforms.Android\bee~\DotsAndroidTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.android@0.1.7-preview.6\Runtime\Unity.Tiny.Android\bee~\CSharpProgramForTinyAndroid.cs">
+      <Link>com.unity.platforms.android@0.1.7-preview.6\Runtime\Unity.Tiny.Android\bee~\CSharpProgramForTinyAndroid.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.android@0.1.7-preview.6\Runtime\Unity.Tiny.InputAndroid\bee~\InputAndroidCustomizer.cs">
+      <Link>com.unity.platforms.android@0.1.7-preview.6\Runtime\Unity.Tiny.InputAndroid\bee~\InputAndroidCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\DotsIOSTarget.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\DotsIOSTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\IOSAppToolchain.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\IOSAppToolchain.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\AssetCatalog.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\AssetCatalog.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\JsonParser.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\JsonParser.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXCapabilityType.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXCapabilityType.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXPath.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXPath.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXProject.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXProject.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXProjectData.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXProjectData.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXProjectExtensions.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBXProjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PlistParser.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PlistParser.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\ProjectCapabilityManager.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\ProjectCapabilityManager.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\XcScheme.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\XcScheme.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Elements.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Elements.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Lexer.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Lexer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Objects.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Objects.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Parser.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Sections.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Sections.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Serializer.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Serializer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Utils.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Editor\Unity.Platforms.IOS\bee~\Xcode\PBX\Utils.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Runtime\Unity.Tiny.Input.iOS\bee~\iOSInputCustomizer.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Runtime\Unity.Tiny.Input.iOS\bee~\iOSInputCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.ios@0.1.7-preview.10\Runtime\Unity.Tiny.IOS\bee~\CSharpProgramForTinyIOS.cs">
+      <Link>com.unity.platforms.ios@0.1.7-preview.10\Runtime\Unity.Tiny.IOS\bee~\CSharpProgramForTinyIOS.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.linux@0.1.7-preview.3\Editor\Unity.Platforms.Linux\bee~\DotsLinuxTarget.cs">
+      <Link>com.unity.platforms.linux@0.1.7-preview.3\Editor\Unity.Platforms.Linux\bee~\DotsLinuxTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.macos@0.1.7-preview.3\Editor\Unity.Platforms.macOS\bee~\DotsMacOSTarget.cs">
+      <Link>com.unity.platforms.macos@0.1.7-preview.3\Editor\Unity.Platforms.macOS\bee~\DotsMacOSTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.web@0.1.7-preview.6\Editor\Unity.Platforms.Web\bee~\DotsWebTarget.cs">
+      <Link>com.unity.platforms.web@0.1.7-preview.6\Editor\Unity.Platforms.Web\bee~\DotsWebTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.web@0.1.7-preview.6\Editor\Unity.Platforms.Web\bee~\TinyEmscripten.cs">
+      <Link>com.unity.platforms.web@0.1.7-preview.6\Editor\Unity.Platforms.Web\bee~\TinyEmscripten.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.windows@0.1.7-preview.4\Editor\Unity.Platforms.Windows\bee~\DotsWindowsTarget.cs">
+      <Link>com.unity.platforms.windows@0.1.7-preview.4\Editor\Unity.Platforms.Windows\bee~\DotsWindowsTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms@0.1.7-preview.3\Editor\Unity.Platforms\bee~\DotsBuildTargets.cs">
+      <Link>com.unity.platforms@0.1.7-preview.3\Editor\Unity.Platforms\bee~\DotsBuildTargets.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms@0.1.7-preview.3\Editor\Unity.Platforms\bee~\DotsConfigs.cs">
+      <Link>com.unity.platforms@0.1.7-preview.3\Editor\Unity.Platforms\bee~\DotsConfigs.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.platforms.web@0.1.7-preview.6\Runtime\Unity.Platforms.RunLoop.HTML\bee~\CustomizerForRunLoopHTML.bee.cs">
+      <Link>com.unity.platforms.web@0.1.7-preview.6\Runtime\Unity.Platforms.RunLoop.HTML\bee~\CustomizerForRunLoopHTML.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.desktop@0.20.0-preview.2\Runtime\Unity.Tiny.GLFW\bee~\CSharpProgramForTinyGLFW.cs">
+      <Link>com.unity.tiny.desktop@0.20.0-preview.2\Runtime\Unity.Tiny.GLFW\bee~\CSharpProgramForTinyGLFW.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.desktop@0.20.0-preview.2\Runtime\Unity.Tiny.GLFW\bee~\ExternalGLFW.bee.cs">
+      <Link>com.unity.tiny.desktop@0.20.0-preview.2\Runtime\Unity.Tiny.GLFW\bee~\ExternalGLFW.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.desktop@0.20.0-preview.2\Runtime\Unity.Tiny.Input.GLFW\bee~\InputGLFWCustomizer.cs">
+      <Link>com.unity.tiny.desktop@0.20.0-preview.2\Runtime\Unity.Tiny.Input.GLFW\bee~\InputGLFWCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.rendering@0.20.0-preview.3\Runtime\Unity.Tiny.Rendering.Native\bee~\BgfxBuild.cs">
+      <Link>com.unity.tiny.rendering@0.20.0-preview.3\Runtime\Unity.Tiny.Rendering.Native\bee~\BgfxBuild.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Audio.Web\bee~\CustomizerForTinyAudioHTML.cs">
+      <Link>com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Audio.Web\bee~\CustomizerForTinyAudioHTML.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Image2D.Web\bee~\Image2DWebCustomizer.cs">
+      <Link>com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Image2D.Web\bee~\Image2DWebCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Input.Web\bee~\InputHTMLCustomizer.cs">
+      <Link>com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Input.Web\bee~\InputHTMLCustomizer.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Web\bee~\CustomizerForTinyHtml.bee.cs">
+      <Link>com.unity.tiny.web@0.20.0-preview.2\Runtime\Unity.Tiny.Web\bee~\CustomizerForTinyHtml.bee.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.20.0-preview.3\Unity.Tiny.Audio.Native\bee~\CustomizerForTinyAudioNative.cs">
+      <Link>com.unity.tiny@0.20.0-preview.3\Unity.Tiny.Audio.Native\bee~\CustomizerForTinyAudioNative.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.tiny@0.20.0-preview.3\Unity.Tiny.Image2D.Native\bee~\CSharpProgramForTinyImage2DNative.cs">
+      <Link>com.unity.tiny@0.20.0-preview.3\Unity.Tiny.Image2D.Native\bee~\CSharpProgramForTinyImage2DNative.cs</Link>
+    </Compile>
+    <Compile Include="..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\LowLevelSupport~\Unity.ZeroJobs\bee~\CustomizerForZeroJobs.bee.cs">
+      <Link>com.unity.dots.runtime@0.1.0-preview.5\LowLevelSupport~\Unity.ZeroJobs\bee~\CustomizerForZeroJobs.bee.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>artifacts\buildprogram.exe\Release</OutputPath>
+    <DefineConstants></DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="bee">
+      <HintPath>..\PackageCache\com.unity.dots.runtime@0.1.0-preview.5\bee~\bee.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Tiny.Main",
+    "references": [
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": []
+}

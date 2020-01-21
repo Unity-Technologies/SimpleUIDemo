@@ -1,0 +1,9 @@
+{
+    "BuildSteps": [
+        "Unity.Entities.Runtime.Build.BuildStepExportEntities, Unity.Entities.Runtime.Build",
+        "Unity.Entities.Runtime.Build.BuildStepExportConfiguration, Unity.Entities.Runtime.Build",
+        "Unity.Entities.Runtime.Build.BuildStepGenerateBeeFiles, Unity.Entities.Runtime.Build",
+        "Unity.Entities.Runtime.Build.BuildStepRunBee, Unity.Entities.Runtime.Build"
+    ],
+    "RunStep": "Unity.Entities.Runtime.Build.DotsRuntimeRunStep, Unity.Entities.Runtime.Build"
+}

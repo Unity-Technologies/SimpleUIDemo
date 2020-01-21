@@ -1,0 +1,24 @@
+{
+    "name": "Unity.Tiny.InputiOS",
+    "references": [
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Tiny.Core",
+        "Unity.Collections",
+        "Unity.Tiny.iOS",
+        "Unity.Tiny.Input"
+    ],
+    "includePlatforms": [
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_DOTSPLAYER"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

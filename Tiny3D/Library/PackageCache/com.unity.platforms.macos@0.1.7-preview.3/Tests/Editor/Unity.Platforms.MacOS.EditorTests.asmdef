@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Platforms.macOS.EditorTests",
+    "references": [
+        "Unity.Platforms.macOS"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

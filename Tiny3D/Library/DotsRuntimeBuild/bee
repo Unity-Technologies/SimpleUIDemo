@@ -1,0 +1,14 @@
+#!/bin/sh
+
+MONO=
+BEE="$PWD/../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe"
+BEE=$(printf %q "$BEE")
+if [ "$APPDATA" == "" ] ; then
+    MONO=mono
+fi
+cmdToRun="${MONO} ${BEE} $*"
+if [ $# -eq 0 ]; then
+    eval "${cmdToRun} -t"
+  else
+    eval "${cmdToRun}"
+fi

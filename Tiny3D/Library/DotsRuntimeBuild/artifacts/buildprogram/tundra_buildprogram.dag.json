@@ -1,0 +1,774 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "PassIndex": 0,
+      "Deps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Download and unpack artifacts/Stevedore/7za-mac-x64/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe' steve internal-unpack public 7za-mac-x64/16.04-1.1.4_d7d625b52bf0c3e1b4948da5cd015e7ae2047e1bd18dc7a7ef367f950d43990e.zip \"artifacts/Stevedore/7za-mac-x64\"",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/Stevedore/7za-mac-x64/.StevedoreVersion",
+        "artifacts/Stevedore/7za-mac-x64"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Download and unpack artifacts/Stevedore/referenceassemblies_v471/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe' steve internal-unpack public referenceassemblies_v471/1_a0c33a9a16a4ad77c158aac7cd7e47daed3e68b180c65e14474f44c9501c4fae.7z \"artifacts/Stevedore/referenceassemblies_v471\"",
+      "Inputs": [
+        "artifacts/Stevedore/7za-mac-x64/7za"
+      ],
+      "Outputs": [
+        "artifacts/Stevedore/referenceassemblies_v471/.StevedoreVersion",
+        "artifacts/Stevedore/referenceassemblies_v471"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/DotsRuntimeBuild/artifacts/Stevedore/7za-mac-x64/7za"
+        }
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Download and unpack artifacts/Stevedore/roslyn-csc-mac/.StevedoreVersion (+1 other)",
+      "Action": "'mono' --debug '/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe' steve internal-unpack public roslyn-csc-mac/9d34608e19dfe308a46d51aeaa3670746272bff9_a54346d2d197e8eb35114d1cb6b3797d4371743d0fbea3da406c67e5f386a952.7z \"artifacts/Stevedore/roslyn-csc-mac\"",
+      "Inputs": [
+        "artifacts/Stevedore/7za-mac-x64/7za"
+      ],
+      "Outputs": [
+        "artifacts/Stevedore/roslyn-csc-mac/.StevedoreVersion",
+        "artifacts/Stevedore/roslyn-csc-mac"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowUnwrittenOutputFiles": true,
+      "AllowedOutputSubstrings": [],
+      "Env": [
+        {
+          "Key": "BEE_INTERNAL_STEVEDORE_7ZA",
+          "Value": "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/DotsRuntimeBuild/artifacts/Stevedore/7za-mac-x64/7za"
+        }
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "WriteResponseFile artifacts/rsp/16678227308262555357.rsp",
+      "WriteTextFilePayload": "-out:\"artifacts/buildprogram/buildprogram.exe\" /refout:\"artifacts/buildprogram/ref/buildprogram.exe/6679393424876907701.dll\" -warnaserror -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Xml.Linq.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Core.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll\" -r:\"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefCSharpProgram.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefCSharpProgramCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefConfigFile.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefDescription.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/BuildProgram.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/BuildSettings.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/Cache.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/DotsBuildCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/DotsRuntimeCSharpProgram.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/DotsRuntimeCSharpProgramCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/EditorToolsBuildProgram.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/ILPostProcessorTool.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/IPackagedAppExtension.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/Il2Cpp.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/Il2CppCustomLocation.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/NPathExtensions.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/ReferenceAssemblies471.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/StevedoreNewtonsoftJson.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/StevedoreUnityCecil.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/TypeRegistrationTool.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/UnsafeUtility.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.burst@1.2.0-preview.9/Runtime/bee~/Burst.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Editor/Unity.Platforms.Android/bee~/AndroidAPKToolchain.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Editor/Unity.Platforms.Android/bee~/DotsAndroidTarget.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Runtime/Unity.Tiny.Android/bee~/CSharpProgramForTinyAndroid.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Runtime/Unity.Tiny.InputAndroid/bee~/InputAndroidCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/DotsIOSTarget.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/IOSAppToolchain.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/AssetCatalog.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/JsonParser.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXCapabilityType.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXPath.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXProject.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXProjectData.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXProjectExtensions.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PlistParser.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/ProjectCapabilityManager.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/XcScheme.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Elements.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Lexer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Objects.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Parser.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Sections.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Serializer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Utils.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Runtime/Unity.Tiny.Input.iOS/bee~/iOSInputCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Runtime/Unity.Tiny.IOS/bee~/CSharpProgramForTinyIOS.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.linux@0.1.7-preview.3/Editor/Unity.Platforms.Linux/bee~/DotsLinuxTarget.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.macos@0.1.7-preview.3/Editor/Unity.Platforms.macOS/bee~/DotsMacOSTarget.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.web@0.1.7-preview.6/Editor/Unity.Platforms.Web/bee~/DotsWebTarget.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.web@0.1.7-preview.6/Editor/Unity.Platforms.Web/bee~/TinyEmscripten.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.windows@0.1.7-preview.4/Editor/Unity.Platforms.Windows/bee~/DotsWindowsTarget.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms@0.1.7-preview.3/Editor/Unity.Platforms/bee~/DotsBuildTargets.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms@0.1.7-preview.3/Editor/Unity.Platforms/bee~/DotsConfigs.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.web@0.1.7-preview.6/Runtime/Unity.Platforms.RunLoop.HTML/bee~/CustomizerForRunLoopHTML.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.GLFW/bee~/CSharpProgramForTinyGLFW.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.GLFW/bee~/ExternalGLFW.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.Input.GLFW/bee~/InputGLFWCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.rendering@0.20.0-preview.3/Runtime/Unity.Tiny.Rendering.Native/bee~/BgfxBuild.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Audio.Web/bee~/CustomizerForTinyAudioHTML.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Image2D.Web/bee~/Image2DWebCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Input.Web/bee~/InputHTMLCustomizer.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Web/bee~/CustomizerForTinyHtml.bee.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny@0.20.0-preview.3/Unity.Tiny.Audio.Native/bee~/CustomizerForTinyAudioNative.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny@0.20.0-preview.3/Unity.Tiny.Image2D.Native/bee~/CSharpProgramForTinyImage2DNative.cs\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/LowLevelSupport~/Unity.ZeroJobs/bee~/CustomizerForZeroJobs.bee.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:portable /nologo /deterministic",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/rsp/16678227308262555357.rsp"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogram/buildprogram.exe (+2 others)",
+      "Action": "\"artifacts/Stevedore/roslyn-csc-mac/csc\" /nostdlib /noconfig /shared @\"artifacts/rsp/16678227308262555357.rsp\"",
+      "Inputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefCSharpProgram.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefCSharpProgramCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefConfigFile.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/AsmDefDescription.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/BuildProgram.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/BuildSettings.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/Cache.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/DotsBuildCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/DotsRuntimeCSharpProgram.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/DotsRuntimeCSharpProgramCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/EditorToolsBuildProgram.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/ILPostProcessorTool.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/IPackagedAppExtension.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/Il2Cpp.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/Il2CppCustomLocation.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/NPathExtensions.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/ReferenceAssemblies471.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/StevedoreNewtonsoftJson.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/StevedoreUnityCecil.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/TypeRegistrationTool.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources/UnsafeUtility.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.burst@1.2.0-preview.9/Runtime/bee~/Burst.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Editor/Unity.Platforms.Android/bee~/AndroidAPKToolchain.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Editor/Unity.Platforms.Android/bee~/DotsAndroidTarget.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Runtime/Unity.Tiny.Android/bee~/CSharpProgramForTinyAndroid.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.android@0.1.7-preview.6/Runtime/Unity.Tiny.InputAndroid/bee~/InputAndroidCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/DotsIOSTarget.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/IOSAppToolchain.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/AssetCatalog.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/JsonParser.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXCapabilityType.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXPath.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXProject.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXProjectData.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBXProjectExtensions.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PlistParser.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/ProjectCapabilityManager.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/XcScheme.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Elements.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Lexer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Objects.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Parser.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Sections.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Serializer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~/Xcode/PBX/Utils.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Runtime/Unity.Tiny.Input.iOS/bee~/iOSInputCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Runtime/Unity.Tiny.IOS/bee~/CSharpProgramForTinyIOS.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.linux@0.1.7-preview.3/Editor/Unity.Platforms.Linux/bee~/DotsLinuxTarget.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.macos@0.1.7-preview.3/Editor/Unity.Platforms.macOS/bee~/DotsMacOSTarget.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.web@0.1.7-preview.6/Editor/Unity.Platforms.Web/bee~/DotsWebTarget.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.web@0.1.7-preview.6/Editor/Unity.Platforms.Web/bee~/TinyEmscripten.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.windows@0.1.7-preview.4/Editor/Unity.Platforms.Windows/bee~/DotsWindowsTarget.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms@0.1.7-preview.3/Editor/Unity.Platforms/bee~/DotsBuildTargets.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms@0.1.7-preview.3/Editor/Unity.Platforms/bee~/DotsConfigs.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.platforms.web@0.1.7-preview.6/Runtime/Unity.Platforms.RunLoop.HTML/bee~/CustomizerForRunLoopHTML.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.GLFW/bee~/CSharpProgramForTinyGLFW.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.GLFW/bee~/ExternalGLFW.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.Input.GLFW/bee~/InputGLFWCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.rendering@0.20.0-preview.3/Runtime/Unity.Tiny.Rendering.Native/bee~/BgfxBuild.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Audio.Web/bee~/CustomizerForTinyAudioHTML.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Image2D.Web/bee~/Image2DWebCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Input.Web/bee~/InputHTMLCustomizer.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Web/bee~/CustomizerForTinyHtml.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny@0.20.0-preview.3/Unity.Tiny.Audio.Native/bee~/CustomizerForTinyAudioNative.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.tiny@0.20.0-preview.3/Unity.Tiny.Image2D.Native/bee~/CSharpProgramForTinyImage2DNative.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/LowLevelSupport~/Unity.ZeroJobs/bee~/CustomizerForZeroJobs.bee.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Xml.Linq.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Core.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll",
+        "artifacts/Stevedore/roslyn-csc-mac/csc",
+        "artifacts/rsp/16678227308262555357.rsp"
+      ],
+      "Outputs": [
+        "artifacts/buildprogram/buildprogram.exe",
+        "artifacts/buildprogram/buildprogram.pdb",
+        "artifacts/buildprogram/ref/buildprogram.exe/6679393424876907701.dll"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [
+        "artifacts/rsp/16678227308262555357.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "SharedResources": [],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyTool artifacts/buildprogram/bee.exe",
+      "Action": "cp \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe\" \"artifacts/buildprogram/bee.exe\" ",
+      "Inputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe"
+      ],
+      "Outputs": [
+        "artifacts/buildprogram/bee.exe"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [
+        ".*"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "WriteResponseFile artifacts/rsp/1008532451738831585.rsp",
+      "WriteTextFilePayload": "-out:\"artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe\" /refout:\"artifacts/buildprogrambuildprogram.exe/Release/ref/buildprogrambuildprogram.exe/11011424901207506681.dll\" -warnaserror -r:\"artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Core.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll\" -r:\"artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll\" -r:\"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe\" \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs\" -langversion:7.2 -fullpaths /optimize+ /debug:portable /nologo /deterministic",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/rsp/1008532451738831585.rsp"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)",
+      "Action": "\"artifacts/Stevedore/roslyn-csc-mac/csc\" /nostdlib /noconfig /shared @\"artifacts/rsp/1008532451738831585.rsp\"",
+      "Inputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs",
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe",
+        "artifacts/Stevedore/referenceassemblies_v471/mscorlib.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Core.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/System.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/Microsoft.Win32.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/netstandard.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.AppContext.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Concurrent.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.NonGeneric.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Collections.Specialized.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Annotations.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ComponentModel.TypeConverter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Console.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Data.Common.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Contracts.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Debug.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Process.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.StackTrace.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.Tools.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Diagnostics.TraceSource.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Drawing.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Dynamic.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Calendars.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Globalization.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Compression.ZipFile.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.FileSystem.Watcher.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.IsolatedStorage.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.MemoryMappedFiles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.Pipes.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Expressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Linq.Queryable.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Http.Rtc.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NameResolution.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.NetworkInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Ping.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Requests.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.Sockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebHeaderCollection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.Client.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Net.WebSockets.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ObjectModel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Emit.Lightweight.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Reflection.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Reader.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.ResourceManager.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Resources.Writer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Handles.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Numerics.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Formatters.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Json.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Runtime.Serialization.Xml.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Claims.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Algorithms.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Csp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.Principal.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Security.SecureString.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Duplex.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Http.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.NetTcp.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Primitives.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ServiceModel.Security.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.Encoding.Extensions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Text.RegularExpressions.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Overlapped.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Tasks.Parallel.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Thread.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.ThreadPool.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Threading.Timer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.ValueTuple.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.ReaderWriter.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlDocument.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XmlSerializer.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.dll",
+        "artifacts/Stevedore/referenceassemblies_v471/Facades/System.Xml.XPath.XDocument.dll",
+        "artifacts/Stevedore/roslyn-csc-mac/csc",
+        "artifacts/rsp/1008532451738831585.rsp"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe",
+        "artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.pdb",
+        "artifacts/buildprogrambuildprogram.exe/Release/ref/buildprogrambuildprogram.exe/11011424901207506681.dll"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [
+        "artifacts/rsp/1008532451738831585.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "SharedResources": [],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyTool artifacts/buildprogrambuildprogram.exe/Release/bee.exe",
+      "Action": "cp \"/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe\" \"artifacts/buildprogrambuildprogram.exe/Release/bee.exe\" ",
+      "Inputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe"
+      ],
+      "Outputs": [
+        "artifacts/buildprogrambuildprogram.exe/Release/bee.exe"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [
+        ".*"
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "VisualStudioSolution build.gen.sln",
+      "WriteTextFilePayload": "\nMicrosoft Visual Studio Solution File, Format Version 12.00\n# Visual Studio 14\nVisualStudioVersion = 14.0.24720.0\nMinimumVisualStudioVersion = 10.0.40219.1\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"buildprogram\", \"buildprogram.gen.csproj\", \"{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}\"\nEndProject\nProject(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"buildprogrambuildprogram\", \"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramBuildProgramSources\\buildprogrambuildprogram.gen.csproj\", \"{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}\"\nEndProject\nGlobal\n\tGlobalSection(SolutionConfigurationPlatforms) = preSolution\n\t\tOnly|Default = Only|Default\n\tEndGlobalSection\n\tGlobalSection(ProjectConfigurationPlatforms) = postSolution\n\t\t{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}.Only|Default.ActiveCfg = Release|Any CPU\n\t\t{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}.Only|Default.Build.0 = Release|Any CPU\n\t\t{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}.Only|Default.ActiveCfg = Release|Any CPU\n\t\t{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}.Only|Default.Build.0 = Release|Any CPU\n\tEndGlobalSection\n\tGlobalSection(SolutionProperties) = preSolution\n\t\tHideSolutionNode = FALSE\n\tEndGlobalSection\n\tGlobalSection(NestedProjects) = preSolution\n\tEndGlobalSection\nEndGlobal\n",
+      "Inputs": [],
+      "Outputs": [
+        "build.gen.sln"
+      ],
+      "PassIndex": 0,
+      "Deps": [
+        11,
+        12
+      ],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "CSProject /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/DotsRuntimeBuild/buildprogram.gen.csproj",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\n  <PropertyGroup>\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\n    <ProjectGuid>{EBB2A89E-D8D2-A7D6-D950-C09291B55A71}</ProjectGuid>\n    <OutputType>Exe</OutputType>\n    <RootNamespace>buildprogram</RootNamespace>\n    <AssemblyName>buildprogram</AssemblyName>\n    <FileAlignment>512</FileAlignment>\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\n    <LangVersion>7.2</LangVersion>\n  </PropertyGroup>\n  <ItemGroup>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\AsmDefCSharpProgram.cs\">\n      <Link>AsmDefCSharpProgram.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\AsmDefCSharpProgramCustomizer.cs\">\n      <Link>AsmDefCSharpProgramCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\AsmDefConfigFile.cs\">\n      <Link>AsmDefConfigFile.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\AsmDefDescription.cs\">\n      <Link>AsmDefDescription.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\BuildProgram.bee.cs\">\n      <Link>BuildProgram.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\BuildSettings.cs\">\n      <Link>BuildSettings.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\Cache.cs\">\n      <Link>Cache.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\DotsBuildCustomizer.cs\">\n      <Link>DotsBuildCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\DotsRuntimeCSharpProgram.cs\">\n      <Link>DotsRuntimeCSharpProgram.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\DotsRuntimeCSharpProgramCustomizer.cs\">\n      <Link>DotsRuntimeCSharpProgramCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\EditorToolsBuildProgram.cs\">\n      <Link>EditorToolsBuildProgram.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\ILPostProcessorTool.cs\">\n      <Link>ILPostProcessorTool.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\IPackagedAppExtension.cs\">\n      <Link>IPackagedAppExtension.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\Il2Cpp.bee.cs\">\n      <Link>Il2Cpp.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\Il2CppCustomLocation.bee.cs\">\n      <Link>Il2CppCustomLocation.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\NPathExtensions.bee.cs\">\n      <Link>NPathExtensions.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\ReferenceAssemblies471.cs\">\n      <Link>ReferenceAssemblies471.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\StevedoreNewtonsoftJson.cs\">\n      <Link>StevedoreNewtonsoftJson.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\StevedoreUnityCecil.cs\">\n      <Link>StevedoreUnityCecil.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\TypeRegistrationTool.cs\">\n      <Link>TypeRegistrationTool.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\BuildProgramSources\\UnsafeUtility.cs\">\n      <Link>UnsafeUtility.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.burst@1.2.0-preview.9\\Runtime\\bee~\\Burst.bee.cs\">\n      <Link>com.unity.burst@1.2.0-preview.9\\Runtime\\bee~\\Burst.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.android@0.1.7-preview.6\\Editor\\Unity.Platforms.Android\\bee~\\AndroidAPKToolchain.cs\">\n      <Link>com.unity.platforms.android@0.1.7-preview.6\\Editor\\Unity.Platforms.Android\\bee~\\AndroidAPKToolchain.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.android@0.1.7-preview.6\\Editor\\Unity.Platforms.Android\\bee~\\DotsAndroidTarget.cs\">\n      <Link>com.unity.platforms.android@0.1.7-preview.6\\Editor\\Unity.Platforms.Android\\bee~\\DotsAndroidTarget.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.android@0.1.7-preview.6\\Runtime\\Unity.Tiny.Android\\bee~\\CSharpProgramForTinyAndroid.cs\">\n      <Link>com.unity.platforms.android@0.1.7-preview.6\\Runtime\\Unity.Tiny.Android\\bee~\\CSharpProgramForTinyAndroid.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.android@0.1.7-preview.6\\Runtime\\Unity.Tiny.InputAndroid\\bee~\\InputAndroidCustomizer.cs\">\n      <Link>com.unity.platforms.android@0.1.7-preview.6\\Runtime\\Unity.Tiny.InputAndroid\\bee~\\InputAndroidCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\DotsIOSTarget.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\DotsIOSTarget.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\IOSAppToolchain.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\IOSAppToolchain.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\AssetCatalog.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\AssetCatalog.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\JsonParser.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\JsonParser.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXCapabilityType.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXCapabilityType.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXPath.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXPath.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXProject.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXProject.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXProjectData.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXProjectData.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXProjectExtensions.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBXProjectExtensions.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PlistParser.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PlistParser.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\ProjectCapabilityManager.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\ProjectCapabilityManager.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\XcScheme.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\XcScheme.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Elements.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Elements.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Lexer.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Lexer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Objects.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Objects.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Parser.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Parser.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Sections.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Sections.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Serializer.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Serializer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Utils.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Editor\\Unity.Platforms.IOS\\bee~\\Xcode\\PBX\\Utils.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Runtime\\Unity.Tiny.Input.iOS\\bee~\\iOSInputCustomizer.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Runtime\\Unity.Tiny.Input.iOS\\bee~\\iOSInputCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.ios@0.1.7-preview.10\\Runtime\\Unity.Tiny.IOS\\bee~\\CSharpProgramForTinyIOS.cs\">\n      <Link>com.unity.platforms.ios@0.1.7-preview.10\\Runtime\\Unity.Tiny.IOS\\bee~\\CSharpProgramForTinyIOS.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.linux@0.1.7-preview.3\\Editor\\Unity.Platforms.Linux\\bee~\\DotsLinuxTarget.cs\">\n      <Link>com.unity.platforms.linux@0.1.7-preview.3\\Editor\\Unity.Platforms.Linux\\bee~\\DotsLinuxTarget.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.macos@0.1.7-preview.3\\Editor\\Unity.Platforms.macOS\\bee~\\DotsMacOSTarget.cs\">\n      <Link>com.unity.platforms.macos@0.1.7-preview.3\\Editor\\Unity.Platforms.macOS\\bee~\\DotsMacOSTarget.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.web@0.1.7-preview.6\\Editor\\Unity.Platforms.Web\\bee~\\DotsWebTarget.cs\">\n      <Link>com.unity.platforms.web@0.1.7-preview.6\\Editor\\Unity.Platforms.Web\\bee~\\DotsWebTarget.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.web@0.1.7-preview.6\\Editor\\Unity.Platforms.Web\\bee~\\TinyEmscripten.cs\">\n      <Link>com.unity.platforms.web@0.1.7-preview.6\\Editor\\Unity.Platforms.Web\\bee~\\TinyEmscripten.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.windows@0.1.7-preview.4\\Editor\\Unity.Platforms.Windows\\bee~\\DotsWindowsTarget.cs\">\n      <Link>com.unity.platforms.windows@0.1.7-preview.4\\Editor\\Unity.Platforms.Windows\\bee~\\DotsWindowsTarget.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms@0.1.7-preview.3\\Editor\\Unity.Platforms\\bee~\\DotsBuildTargets.cs\">\n      <Link>com.unity.platforms@0.1.7-preview.3\\Editor\\Unity.Platforms\\bee~\\DotsBuildTargets.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms@0.1.7-preview.3\\Editor\\Unity.Platforms\\bee~\\DotsConfigs.cs\">\n      <Link>com.unity.platforms@0.1.7-preview.3\\Editor\\Unity.Platforms\\bee~\\DotsConfigs.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.platforms.web@0.1.7-preview.6\\Runtime\\Unity.Platforms.RunLoop.HTML\\bee~\\CustomizerForRunLoopHTML.bee.cs\">\n      <Link>com.unity.platforms.web@0.1.7-preview.6\\Runtime\\Unity.Platforms.RunLoop.HTML\\bee~\\CustomizerForRunLoopHTML.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.desktop@0.20.0-preview.2\\Runtime\\Unity.Tiny.GLFW\\bee~\\CSharpProgramForTinyGLFW.cs\">\n      <Link>com.unity.tiny.desktop@0.20.0-preview.2\\Runtime\\Unity.Tiny.GLFW\\bee~\\CSharpProgramForTinyGLFW.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.desktop@0.20.0-preview.2\\Runtime\\Unity.Tiny.GLFW\\bee~\\ExternalGLFW.bee.cs\">\n      <Link>com.unity.tiny.desktop@0.20.0-preview.2\\Runtime\\Unity.Tiny.GLFW\\bee~\\ExternalGLFW.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.desktop@0.20.0-preview.2\\Runtime\\Unity.Tiny.Input.GLFW\\bee~\\InputGLFWCustomizer.cs\">\n      <Link>com.unity.tiny.desktop@0.20.0-preview.2\\Runtime\\Unity.Tiny.Input.GLFW\\bee~\\InputGLFWCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.rendering@0.20.0-preview.3\\Runtime\\Unity.Tiny.Rendering.Native\\bee~\\BgfxBuild.cs\">\n      <Link>com.unity.tiny.rendering@0.20.0-preview.3\\Runtime\\Unity.Tiny.Rendering.Native\\bee~\\BgfxBuild.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Audio.Web\\bee~\\CustomizerForTinyAudioHTML.cs\">\n      <Link>com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Audio.Web\\bee~\\CustomizerForTinyAudioHTML.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Image2D.Web\\bee~\\Image2DWebCustomizer.cs\">\n      <Link>com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Image2D.Web\\bee~\\Image2DWebCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Input.Web\\bee~\\InputHTMLCustomizer.cs\">\n      <Link>com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Input.Web\\bee~\\InputHTMLCustomizer.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Web\\bee~\\CustomizerForTinyHtml.bee.cs\">\n      <Link>com.unity.tiny.web@0.20.0-preview.2\\Runtime\\Unity.Tiny.Web\\bee~\\CustomizerForTinyHtml.bee.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.20.0-preview.3\\Unity.Tiny.Audio.Native\\bee~\\CustomizerForTinyAudioNative.cs\">\n      <Link>com.unity.tiny@0.20.0-preview.3\\Unity.Tiny.Audio.Native\\bee~\\CustomizerForTinyAudioNative.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.tiny@0.20.0-preview.3\\Unity.Tiny.Image2D.Native\\bee~\\CSharpProgramForTinyImage2DNative.cs\">\n      <Link>com.unity.tiny@0.20.0-preview.3\\Unity.Tiny.Image2D.Native\\bee~\\CSharpProgramForTinyImage2DNative.cs</Link>\n    </Compile>\n    <Compile Include=\"..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\LowLevelSupport~\\Unity.ZeroJobs\\bee~\\CustomizerForZeroJobs.bee.cs\">\n      <Link>com.unity.dots.runtime@0.1.0-preview.5\\LowLevelSupport~\\Unity.ZeroJobs\\bee~\\CustomizerForZeroJobs.bee.cs</Link>\n    </Compile>\n  </ItemGroup>\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <PlatformTarget>AnyCPU</PlatformTarget>\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>pdbonly</DebugType>\n    <Optimize>true</Optimize>\n    <OutputPath>artifacts\\buildprogram.exe\\Release</OutputPath>\n    <DefineConstants></DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\n    <NoWarn></NoWarn>\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\n    <Prefer32Bit>false</Prefer32Bit>\n    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <Reference Include=\"System.Xml.Linq\" />\n    <Reference Include=\"System.Xml\" />\n    <Reference Include=\"System\" />\n    <Reference Include=\"System.Core\" />\n    <Reference Include=\"bee\">\n      <HintPath>..\\PackageCache\\com.unity.dots.runtime@0.1.0-preview.5\\bee~\\bee.exe</HintPath>\n    </Reference>\n  </ItemGroup>\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\n</Project>",
+      "Inputs": [],
+      "Outputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/DotsRuntimeBuild/buildprogram.gen.csproj"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CSProject /Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj",
+      "WriteTextFilePayload": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Project ToolsVersion=\"14.0\" DefaultTargets=\"Build\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\n  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\" Condition=\"Exists('$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props')\" />\n  <PropertyGroup>\n    <Configuration Condition=\" '$(Configuration)' == '' \">Debug</Configuration>\n    <Platform Condition=\" '$(Platform)' == '' \">AnyCPU</Platform>\n    <ProjectGuid>{8061BA76-E24B-58A0-1AB4-86F1A51C72DB}</ProjectGuid>\n    <OutputType>Exe</OutputType>\n    <RootNamespace>buildprogrambuildprogram</RootNamespace>\n    <AssemblyName>buildprogrambuildprogram</AssemblyName>\n    <FileAlignment>512</FileAlignment>\n    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>\n    <LangVersion>7.2</LangVersion>\n  </PropertyGroup>\n  <ItemGroup>\n    <Compile Include=\"BuildProgramBuildProgram.cs\" />\n  </ItemGroup>\n  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <PlatformTarget>AnyCPU</PlatformTarget>\n    <DebugSymbols>true</DebugSymbols>\n    <DebugType>pdbonly</DebugType>\n    <Optimize>true</Optimize>\n    <OutputPath>..\\..\\..\\..\\DotsRuntimeBuild\\artifacts\\buildprogrambuildprogram.exe\\Release</OutputPath>\n    <DefineConstants></DefineConstants>\n    <ErrorReport>prompt</ErrorReport>\n    <WarningLevel>4</WarningLevel>\n    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>\n    <NoWarn></NoWarn>\n    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>\n    <Prefer32Bit>false</Prefer32Bit>\n    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>\n  </PropertyGroup>\n  <ItemGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \">\n    <Reference Include=\"System\" />\n    <Reference Include=\"System.Core\" />\n    <Reference Include=\"bee\">\n      <HintPath>..\\bee.exe</HintPath>\n    </Reference>\n  </ItemGroup>\n  <Import Project=\"$(MSBuildToolsPath)\\Microsoft.CSharp.targets\" />\n  <Target Name=\"GenerateTargetFrameworkMonikerAttribute\" />\n</Project>",
+      "Inputs": [],
+      "Outputs": [
+        "/Users/yufh/Desktop/tinytest/ProjectTinySamples/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 12
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64/7za"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources/BuildProgramBuildProgram.cs"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/bee.exe"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/mscorlib.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Core.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v46/System.Xml.dll"
+    },
+    {
+      "File": "artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac/csc"
+    },
+    {
+      "File": "bee.config"
+    },
+    {
+      "File": "asmdefs.json"
+    },
+    {
+      "File": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/manifest.stevedore"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~"
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources"
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~",
+      "Filter": "Bee.*.dll"
+    },
+    {
+      "Path": "../PackageCache/com.unity.burst@1.2.0-preview.9/Runtime/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.android@0.1.7-preview.6/Editor/Unity.Platforms.Android/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.android@0.1.7-preview.6/Runtime/Unity.Tiny.Android/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.android@0.1.7-preview.6/Runtime/Unity.Tiny.InputAndroid/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Editor/Unity.Platforms.IOS/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Runtime/Unity.Tiny.Input.iOS/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.ios@0.1.7-preview.10/Runtime/Unity.Tiny.IOS/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.linux@0.1.7-preview.3/Editor/Unity.Platforms.Linux/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.macos@0.1.7-preview.3/Editor/Unity.Platforms.macOS/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.web@0.1.7-preview.6/Editor/Unity.Platforms.Web/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.windows@0.1.7-preview.4/Editor/Unity.Platforms.Windows/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms@0.1.7-preview.3/Editor/Unity.Platforms/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.platforms.web@0.1.7-preview.6/Runtime/Unity.Platforms.RunLoop.HTML/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.GLFW/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.desktop@0.20.0-preview.2/Runtime/Unity.Tiny.Input.GLFW/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.rendering@0.20.0-preview.3/Runtime/Unity.Tiny.Rendering.Native/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Audio.Web/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Image2D.Web/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Input.Web/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny.web@0.20.0-preview.2/Runtime/Unity.Tiny.Web/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.20.0-preview.3/Unity.Tiny.Audio.Native/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.tiny@0.20.0-preview.3/Unity.Tiny.Image2D.Native/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/LowLevelSupport~/Unity.ZeroJobs/bee~",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
+    },
+    {
+      "Path": "../PackageCache/com.unity.dots.runtime@0.1.0-preview.5/bee~/BuildProgramBuildProgramSources",
+      "Filter": "*.cs",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".json",
+    ".config"
+  ],
+  "StructuredLogFileName": "artifacts/buildprogram/tundra.log.json",
+  "StateFileName": "artifacts/buildprogram/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/buildprogram/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/buildprogram/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/buildprogram/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/buildprogram/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/buildprogram/tundra.digestcache.tmp",
+  "SharedResources": [],
+  "Passes": [
+    "0"
+  ],
+  "Scanners": [],
+  "Setup": {
+    "DefaultBuildTuple": {
+      "VariantIndex": 0,
+      "ConfigIndex": 0,
+      "SubVariantIndex": 0
+    },
+    "SubVariants": [
+      "default"
+    ],
+    "Configs": [
+      "default"
+    ],
+    "Variants": [
+      "default"
+    ],
+    "BuildTuples": [
+      {
+        "VariantIndex": 0,
+        "DefaultNodes": [
+          0
+        ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        },
+        "ConfigIndex": 0,
+        "SubVariantIndex": 0,
+        "AlwaysNodes": []
+      }
+    ]
+  },
+  "Identifier": "artifacts/buildprogram/tundra_buildprogram.dag.json",
+  "BuildTitle": "",
+  "RelativePathToRoot": "../.."
+}

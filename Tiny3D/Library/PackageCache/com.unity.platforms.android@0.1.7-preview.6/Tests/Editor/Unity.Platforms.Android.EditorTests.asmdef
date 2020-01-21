@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Platforms.Android.EditorTests",
+    "references": [
+        "Unity.Platforms.Android"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

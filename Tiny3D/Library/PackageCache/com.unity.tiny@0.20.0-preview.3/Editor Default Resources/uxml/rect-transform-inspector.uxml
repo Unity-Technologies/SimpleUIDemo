@@ -1,0 +1,32 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" id="RectTransformInspector">
+    <ui:VisualElement class="smart-layout-root">
+        <ui:VisualElement name="LayoutDropdown" class="layout-dropdown">
+            <ui:IMGUIContainer name="CurrentLayoutImage"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="position-and-size">
+            <ui:VisualElement class="position-and-size__section">
+                <uie:FloatField name="m_PosX" label="Pos X" class="label-above-field"/>
+                <uie:FloatField name="m_Left" label="Left" class="label-above-field"/>
+                <uie:FloatField name="m_PosY" label="Pos Y" class="label-above-field"/>
+                <uie:FloatField name="m_Top" label="Top" class="label-above-field"/>
+                <ui:VisualElement class="field-spacer mode-button__container">
+                    <ui:Button name="m_RawEditButton" class="mode-button__item"/>
+                    <ui:Button name="m_BlueprintButton" class="mode-button__item"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="position-and-size__section">
+                <uie:FloatField name="m_Width" label="Width" class="label-above-field"/>
+                <uie:FloatField name="m_Right" label="Right" class="label-above-field"/>
+                <uie:FloatField name="m_Height" label="Height" class="label-above-field"/>
+                <uie:FloatField name="m_Bottom" label="Bottom" class="label-above-field"/>
+                <ui:VisualElement class="field-spacer"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:Foldout name="Anchor" text="Anchor">
+        <uie:Vector2Field name="m_AnchorMin" label="Min"/>
+        <uie:Vector2Field name="m_AnchorMax" label="Max"/>
+    </ui:Foldout>
+    <uie:Vector2Field name="m_Pivot" label="Pivot"/>
+</UXML>

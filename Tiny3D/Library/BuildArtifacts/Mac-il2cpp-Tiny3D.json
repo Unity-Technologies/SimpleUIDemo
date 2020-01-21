@@ -1,0 +1,71 @@
+{
+    "Result": {
+        "$type": "Unity.Build.BuildPipelineResult, Unity.Build",
+        "Succeeded": true,
+        "Message": null,
+        "Duration": "00:00:24.2821829",
+        "BuildPipeline": "GlobalObjectId_V1-1-56241f83dacec1141b7d967eb30bf934-93214019566545601-0",
+        "BuildSettings": "GlobalObjectId_V1-1-7ab136cdf00eb274eba65461ca51f572-93214019566545601-0",
+        "BuildStepsResults": [{
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.1644432",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepExportEntities, Unity.Entities.Runtime.Build",
+            "Description": "Export Entities"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0580873",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepExportConfiguration, Unity.Entities.Runtime.Build",
+            "Description": "Export Configuration"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.1378823",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepGenerateBeeFiles, Unity.Entities.Runtime.Build",
+            "Description": "Generate Bee Files"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:23.8894523",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepRunBee, Unity.Entities.Runtime.Build",
+            "Description": "Run bee"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0002700",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepRunBee, Unity.Entities.Runtime.Build",
+            "Description": "Run bee"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0000298",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepGenerateBeeFiles, Unity.Entities.Runtime.Build",
+            "Description": "Generate Bee Files"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0000356",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepExportConfiguration, Unity.Entities.Runtime.Build",
+            "Description": "Export Configuration"
+        }, {
+            "$type": "Unity.Build.BuildStepResult, Unity.Build",
+            "Succeeded": true,
+            "Message": null,
+            "Duration": "00:00:00.0000432",
+            "BuildStep": "Unity.Entities.Runtime.Build.BuildStepExportEntities, Unity.Entities.Runtime.Build",
+            "Description": "Export Entities"
+        }]
+    },
+    "Artifacts": [{
+        "$type": "Unity.Entities.Runtime.Build.DotsRuntimeBuildArtifact, Unity.Entities.Runtime.Build",
+        "OutputTargetFile": "Builds/Mac-il2cpp-Tiny3D/Tiny3D"
+    }]
+}

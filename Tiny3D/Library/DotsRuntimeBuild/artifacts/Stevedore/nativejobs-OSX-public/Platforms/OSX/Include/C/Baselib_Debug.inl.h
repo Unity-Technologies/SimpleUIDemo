@@ -1,0 +1,3 @@
+#pragma once
+
+#define BASELIB_DEBUG_TRAP() COMPILER_DEBUG_TRAP()

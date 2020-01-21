@@ -1,0 +1,3 @@
+These builds were created by teamcity from svn revision 
+TC projectname was: 
+TC buildconfigname was: 

@@ -1,0 +1,49 @@
+{
+    "name": "Unity.Entities.Runtime.Build",
+    "references": [
+        "Unity.Build",
+        "Unity.Build.Common",
+        "Unity.Build.Internals",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Entities.Runtime",
+        "Unity.Mathematics",
+        "Unity.Platforms",
+        "Unity.Properties",
+        "Unity.Properties.Editor",
+        "Unity.Scenes.Editor",
+        "Unity.Scenes.Hybrid",
+        "Unity.Serialization",
+        "Unity.Tiny.Codec",
+        "Unity.Tiny.Codec.Editor",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Rendering.Native",
+        "Unity.Tiny.Rendering",
+        "Unity.Tiny.Scenes"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.tiny.rendering",
+            "expression": "0.0.1",
+            "define": "EXPORT_TINY_SHADER"
+        },
+        {
+            "name": "com.unity.tiny",
+            "expression": "0.0.1",
+            "define": "TINY_SCENE_DEP"
+        }
+    ],
+    "noEngineReferences": false
+}

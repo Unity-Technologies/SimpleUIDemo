@@ -1,0 +1,19 @@
+{
+  "name": "com.unity.platforms.ios",
+  "displayName": "DOTS iOS Platform",
+  "version": "0.1.7-preview.10",
+  "unity": "2019.3",
+  "unityRelease": "0f1",
+  "description": "Provides support for building DOTS based projects to iOS.",
+  "keywords": [
+    "ios"
+  ],
+  "dependencies": {
+    "com.unity.platforms": "0.1.7-preview.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Unity-Technologies/dots-platforms.git",
+    "revision": "166d817e33a0da07187838716475e617565c1ad4"
+  }
+}

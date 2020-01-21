@@ -1,0 +1,19 @@
+package com.unity3d.tinyplayer;
+
+// Wrapper for native library
+public class UnityTinyAndroidJNILib {
+
+    static {
+        System.loadLibrary("_unity_tiny_android");
+    }
+
+    public static native void init(Object surface, int width, int height);
+    public static native void setAssetManager(Object assetManager);
+    public static native void step();
+    public static native void pause(int paused);
+    public static native void destroy();
+    public static native void touchevent(int id, int action, int xpos, int ypos);
+    public static native void keyevent(int key, int scan, int action, int mods);
+    public static void start() { start("lib**GAMENAME**.so"); }
+    public static native void start(String name);
+}

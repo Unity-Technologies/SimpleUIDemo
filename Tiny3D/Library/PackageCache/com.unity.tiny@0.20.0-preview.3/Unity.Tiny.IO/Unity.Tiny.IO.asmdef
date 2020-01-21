@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Tiny.IO",
+    "references": [
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Tiny.Core",
+        "Unity.Tiny.Thread.Native"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "cpp": [ "cpp~" ],
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": []
+}

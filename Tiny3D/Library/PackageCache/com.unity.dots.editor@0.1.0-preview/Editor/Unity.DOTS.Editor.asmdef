@@ -1,0 +1,18 @@
+{
+    "name": "Unity.DOTS.Editor",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Properties",
+        "Unity.InternalAPIEngineBridge.002"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
